@@ -1,0 +1,4 @@
+interface:
+  display_name: "raycast-design"
+  short_description: "参考 Raycast 风格设计效率工具与扩展介绍页，应用配色、排版与组件规则。"
+  default_prompt: "请使用 $raycast-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

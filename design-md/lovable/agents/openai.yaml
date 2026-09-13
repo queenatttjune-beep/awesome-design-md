@@ -1,0 +1,4 @@
+interface:
+  display_name: "lovable-design"
+  short_description: "参考 Lovable 风格设计AI 建站产品介绍页，应用配色、排版与组件规则。"
+  default_prompt: "请使用 $lovable-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

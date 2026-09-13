@@ -26,6 +26,12 @@
 
 # Awesome DESIGN.md
 
+> **Independent Agent Skills edition / 独立技能版**
+>
+> This fork adds one standalone skill per design document. Browse the [skill catalog](SKILLS.md) for names, intended page types, and invocation examples. Each `design-md/<brand>/SKILL.md` reads the original `DESIGN.md` beside it; the upstream design documents and license are preserved.
+>
+> 本 fork 为每份设计文档提供独立 Skill，附中文触发说明和 Codex 界面配置。查看[技能目录](SKILLS.md)选择风格；通过 Skill Panel 收录此 fork 仓库后，可分别管理各技能。技能加载依赖所用 Agent 的安装与启用配置。改造说明与维护方式见技能目录，下方保留上游项目介绍。
+
 Copy a DESIGN.md into your project, tell your AI agent “build me a page that looks like this,” and generate high-quality UI that stays visually consistent with the design language.
 
 Built with real design depth — including analyzed patterns, tokens, and rules — for high-quality UI generation, not surface-level outputs.

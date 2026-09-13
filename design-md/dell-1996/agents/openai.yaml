@@ -1,0 +1,4 @@
+interface:
+  display_name: "dell-1996-design"
+  short_description: "参考 Dell 1996 风格设计1996 年风格的复古产品目录，应用配色、排版与组件规则。"
+  default_prompt: "请使用 $dell-1996-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "nintendo-2001-design"
+  short_description: "参考 Nintendo 2001 风格设计2001 年风格的复古游戏门户，应用配色、排版与组件规则。"
+  default_prompt: "请使用 $nintendo-2001-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

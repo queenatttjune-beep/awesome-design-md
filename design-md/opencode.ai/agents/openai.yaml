@@ -1,0 +1,4 @@
+interface:
+  display_name: "opencode-ai-design"
+  short_description: "参考 OpenCode AI 风格设计终端开发工具介绍页，应用配色、排版与组件规则。"
+  default_prompt: "请使用 $opencode-ai-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

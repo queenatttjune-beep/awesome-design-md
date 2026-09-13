@@ -1,0 +1,4 @@
+interface:
+  display_name: "mongodb-design"
+  short_description: "参考 MongoDB 风格设计数据库产品与开发文档页，应用配色、排版与组件规则。"
+  default_prompt: "请使用 $mongodb-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

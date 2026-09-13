@@ -1,0 +1,520 @@
+[
+  {
+    "directory": "airbnb",
+    "name": "airbnb-design",
+    "brand": "Airbnb",
+    "scope": "旅行房源与体验列表",
+    "style": "白色底、珊瑚红主操作、圆角图片卡片"
+  },
+  {
+    "directory": "airtable",
+    "name": "airtable-design",
+    "brand": "Airtable",
+    "scope": "工作流产品介绍页",
+    "style": "白底深墨色文字、彩色整幅内容卡、黑色胶囊按钮"
+  },
+  {
+    "directory": "apple",
+    "name": "apple-design",
+    "brand": "Apple",
+    "scope": "消费电子产品展示页",
+    "style": "大幅产品摄影、明暗交替、紧凑无衬线标题、蓝色链接"
+  },
+  {
+    "directory": "binance",
+    "name": "binance-design",
+    "brand": "Binance",
+    "scope": "金融平台介绍与交易界面",
+    "style": "近黑底、黄色主操作、数字信息层级"
+  },
+  {
+    "directory": "bmw",
+    "name": "bmw-design",
+    "brand": "BMW",
+    "scope": "汽车品牌与车型介绍页",
+    "style": "浅色底、企业蓝按钮、深蓝摄影区"
+  },
+  {
+    "directory": "bmw-m",
+    "name": "bmw-m-design",
+    "brand": "BMW M",
+    "scope": "性能汽车与赛车专题页",
+    "style": "近黑底、大写标题、赛车摄影、三色识别"
+  },
+  {
+    "directory": "bugatti",
+    "name": "bugatti-design",
+    "brand": "Bugatti",
+    "scope": "豪华汽车展示页",
+    "style": "黑底、宽字距大写标题、全幅汽车摄影"
+  },
+  {
+    "directory": "cal",
+    "name": "cal-com-design",
+    "brand": "Cal.com",
+    "scope": "预约工具介绍页",
+    "style": "白底、黑色按钮、圆角卡片、产品界面片段"
+  },
+  {
+    "directory": "claude",
+    "name": "claude-design",
+    "brand": "Claude",
+    "scope": "AI 产品介绍与编辑式页面",
+    "style": "暖奶油底、衬线标题、珊瑚色按钮、深蓝产品区域"
+  },
+  {
+    "directory": "clay",
+    "name": "clay-design",
+    "brand": "Clay",
+    "scope": "GTM 数据平台介绍页",
+    "style": "白底、深蓝按钮、圆润标题、饱和彩色功能卡"
+  },
+  {
+    "directory": "clickhouse",
+    "name": "clickhouse-design",
+    "brand": "ClickHouse",
+    "scope": "数据库产品与技术介绍页",
+    "style": "近黑底、电光黄操作与数字、嵌入式代码区"
+  },
+  {
+    "directory": "cohere",
+    "name": "cohere-design",
+    "brand": "Cohere",
+    "scope": "企业 AI 产品介绍页",
+    "style": "白色编辑区、深绿黑产品区、柔和中性色、圆角媒体卡"
+  },
+  {
+    "directory": "coinbase",
+    "name": "coinbase-design",
+    "brand": "Coinbase",
+    "scope": "金融服务与加密产品介绍页",
+    "style": "白底、品牌蓝重点操作、克制的机构化排版"
+  },
+  {
+    "directory": "composio",
+    "name": "composio-design",
+    "brand": "Composio",
+    "scope": "开发者工具介绍页",
+    "style": "近黑底、深电蓝重点色、轻层次灰色卡片"
+  },
+  {
+    "directory": "cursor",
+    "name": "cursor-design",
+    "brand": "Cursor",
+    "scope": "代码编辑器介绍页",
+    "style": "暖白底、暖黑文字、轻字重标题、紧凑编辑式排版"
+  },
+  {
+    "directory": "dell-1996",
+    "name": "dell-1996-design",
+    "brand": "Dell 1996",
+    "scope": "1996 年风格的复古产品目录",
+    "style": "黑色页面框、平面彩色条带、粗标题与衬线正文、GIF 贴图感"
+  },
+  {
+    "directory": "elevenlabs",
+    "name": "elevenlabs-design",
+    "brand": "ElevenLabs",
+    "scope": "语音 AI 产品介绍页",
+    "style": "灰白底、暖黑文字、柔和渐变光球、杂志式排版"
+  },
+  {
+    "directory": "expo",
+    "name": "expo-design",
+    "brand": "Expo",
+    "scope": "移动开发平台介绍页",
+    "style": "白底、浅天蓝背景、黑色主操作、技术产品展示"
+  },
+  {
+    "directory": "ferrari",
+    "name": "ferrari-design",
+    "brand": "Ferrari",
+    "scope": "豪华汽车与品牌专题页",
+    "style": "近黑底、白色大标题、稀疏赛车红、电影式摄影"
+  },
+  {
+    "directory": "figma",
+    "name": "figma-design",
+    "brand": "Figma",
+    "scope": "设计工具与创意产品介绍页",
+    "style": "黑白编辑框架、大幅粉彩色块、胶囊按钮"
+  },
+  {
+    "directory": "framer",
+    "name": "framer-design",
+    "brand": "Framer",
+    "scope": "建站工具与设计作品展示页",
+    "style": "纯黑底、紧字距白色标题、蓝色链接、画板式展示"
+  },
+  {
+    "directory": "hashicorp",
+    "name": "hashicorp-design",
+    "brand": "HashiCorp",
+    "scope": "基础设施产品介绍页",
+    "style": "黑色底、按产品分配重点色、粗无衬线标题"
+  },
+  {
+    "directory": "hp",
+    "name": "hp-design",
+    "brand": "HP",
+    "scope": "电脑与打印产品介绍页",
+    "style": "白底、电光蓝按钮、几何标题、斜角标记"
+  },
+  {
+    "directory": "ibm",
+    "name": "ibm-design",
+    "brand": "IBM",
+    "scope": "企业技术产品介绍页",
+    "style": "白底、炭黑文字、IBM 蓝、方角网格与轻字重标题"
+  },
+  {
+    "directory": "intercom",
+    "name": "intercom-design",
+    "brand": "Intercom",
+    "scope": "客服产品介绍页",
+    "style": "奶油白底、炭黑文字、橙色重点、细边框白卡"
+  },
+  {
+    "directory": "kraken",
+    "name": "kraken-design",
+    "brand": "Kraken",
+    "scope": "加密金融产品介绍与界面",
+    "style": "白底、紫色主操作、冷灰蓝中性色、轻阴影"
+  },
+  {
+    "directory": "lamborghini",
+    "name": "lamborghini-design",
+    "brand": "Lamborghini",
+    "scope": "豪华汽车与品牌展示页",
+    "style": "纯黑底、金色重点、白色文字、全屏汽车影像"
+  },
+  {
+    "directory": "linear.app",
+    "name": "linear-design",
+    "brand": "Linear",
+    "scope": "项目管理产品的官网营销页",
+    "style": "近黑底、灰白文字、稀疏蓝紫重点、细边框产品截图"
+  },
+  {
+    "directory": "lovable",
+    "name": "lovable-design",
+    "brand": "Lovable",
+    "scope": "AI 建站产品介绍页",
+    "style": "暖奶油底、暖黑文字、人文无衬线、紧字距标题"
+  },
+  {
+    "directory": "mastercard",
+    "name": "mastercard-design",
+    "brand": "Mastercard",
+    "scope": "支付服务与品牌介绍页",
+    "style": "暖米灰底、橙色重点、大圆角与圆形轨道构图"
+  },
+  {
+    "directory": "meta",
+    "name": "meta-design",
+    "brand": "Meta",
+    "scope": "智能硬件产品与零售页",
+    "style": "明暗对比、全幅产品摄影、双操作按钮"
+  },
+  {
+    "directory": "minimax",
+    "name": "minimax-design",
+    "brand": "MiniMax",
+    "scope": "AI 模型与产品发布页",
+    "style": "白底、黑色胶囊按钮、多色渐变产品卡"
+  },
+  {
+    "directory": "mintlify",
+    "name": "mintlify-design",
+    "brand": "Mintlify",
+    "scope": "开发文档与产品介绍页",
+    "style": "天空渐变背景、绿色重点、清晰文档排版、等宽代码"
+  },
+  {
+    "directory": "miro",
+    "name": "miro-design",
+    "brand": "Miro",
+    "scope": "视觉协作产品介绍页",
+    "style": "白底、金丝雀黄、多色便签式功能区域"
+  },
+  {
+    "directory": "mistral.ai",
+    "name": "mistral-ai-design",
+    "brand": "Mistral AI",
+    "scope": "AI 模型与品牌介绍页",
+    "style": "奶油黄底、日落渐变与山景、橙色操作、横向色带"
+  },
+  {
+    "directory": "mongodb",
+    "name": "mongodb-design",
+    "brand": "MongoDB",
+    "scope": "数据库产品与开发文档页",
+    "style": "深青绿展示区、绿色胶囊按钮、白色文档区"
+  },
+  {
+    "directory": "nike",
+    "name": "nike-design",
+    "brand": "Nike",
+    "scope": "运动品牌与商品零售页",
+    "style": "巨大大写标题、运动摄影、黑白零售组件"
+  },
+  {
+    "directory": "nintendo-2001",
+    "name": "nintendo-2001-design",
+    "brand": "Nintendo 2001",
+    "scope": "2001 年风格的复古游戏门户",
+    "style": "蓝紫斜面金属面板、琥珀色导航、网点与电路纹理"
+  },
+  {
+    "directory": "notion",
+    "name": "notion-design",
+    "brand": "Notion",
+    "scope": "工作区产品官网介绍页",
+    "style": "深蓝主展示区、紫色胶囊按钮、便签点与线框插画"
+  },
+  {
+    "directory": "nvidia",
+    "name": "nvidia-design",
+    "brand": "NVIDIA",
+    "scope": "硬件与技术产品介绍页",
+    "style": "黑白分区、亮绿操作、近方角组件、密集技术网格"
+  },
+  {
+    "directory": "ollama",
+    "name": "ollama-design",
+    "brand": "Ollama",
+    "scope": "本地模型工具与文档页",
+    "style": "白底、黑色胶囊按钮、命令行片段、手绘吉祥物"
+  },
+  {
+    "directory": "opencode.ai",
+    "name": "opencode-ai-design",
+    "brand": "OpenCode AI",
+    "scope": "终端开发工具介绍页",
+    "style": "暖白底、全等宽文字、ASCII 标记、细边框与终端卡"
+  },
+  {
+    "directory": "pinterest",
+    "name": "pinterest-design",
+    "brand": "Pinterest",
+    "scope": "图片发现与内容浏览界面",
+    "style": "暖奶油底、红色操作、图片瀑布流、圆角卡片"
+  },
+  {
+    "directory": "playstation",
+    "name": "playstation-design",
+    "brand": "PlayStation",
+    "scope": "游戏主机与内容展示页",
+    "style": "黑白蓝分区、轻字重标题、蓝色胶囊按钮、产品影像"
+  },
+  {
+    "directory": "posthog",
+    "name": "posthog-design",
+    "brand": "PostHog",
+    "scope": "开发者产品与文档页",
+    "style": "暖奶油底、橄榄灰文字、黄橙操作、手绘刺猬插画"
+  },
+  {
+    "directory": "raycast",
+    "name": "raycast-design",
+    "brand": "Raycast",
+    "scope": "效率工具与扩展介绍页",
+    "style": "连续深色底、细边框命令面板、白色按钮、分类重点色"
+  },
+  {
+    "directory": "renault",
+    "name": "renault-design",
+    "brand": "Renault",
+    "scope": "汽车车型与配置介绍页",
+    "style": "黑白底、阳光黄重点、方角容器、车型摄影"
+  },
+  {
+    "directory": "replicate",
+    "name": "replicate-design",
+    "brand": "Replicate",
+    "scope": "模型平台与开发者介绍页",
+    "style": "暖奶油底、亮橙重点、大标题、等宽代码与手绘图示"
+  },
+  {
+    "directory": "resend",
+    "name": "resend-design",
+    "brand": "Resend",
+    "scope": "邮件 API 产品介绍页",
+    "style": "近黑底、巨大衬线标题、细边框、微弱光晕"
+  },
+  {
+    "directory": "revolut",
+    "name": "revolut-design",
+    "brand": "Revolut",
+    "scope": "消费金融产品介绍页",
+    "style": "黑色底、巨幅标题、钴紫与产品色、摄影和设备模型"
+  },
+  {
+    "directory": "runwayml",
+    "name": "runway-design",
+    "brand": "Runway",
+    "scope": "创意工具与影像作品展示页",
+    "style": "电影式暗色影像、白色阅读区、统一字体、黑色胶囊按钮"
+  },
+  {
+    "directory": "sanity",
+    "name": "sanity-design",
+    "brand": "Sanity",
+    "scope": "内容平台与开发者介绍页",
+    "style": "近黑底、超大紧字距标题、等宽技术标签、珊瑚红操作"
+  },
+  {
+    "directory": "sentry",
+    "name": "sentry-design",
+    "brand": "Sentry",
+    "scope": "开发者监控产品介绍页",
+    "style": "午夜紫底、电光黄绿重点、活泼标题与插画"
+  },
+  {
+    "directory": "shopify",
+    "name": "shopify-design",
+    "brand": "Shopify",
+    "scope": "电商平台与商家故事页",
+    "style": "近黑电影式展示区、商家摄影、纤细大标题、亮绿重点"
+  },
+  {
+    "directory": "slack",
+    "name": "slack-design",
+    "brand": "Slack",
+    "scope": "团队沟通产品介绍页",
+    "style": "深茄紫、奶油紫渐变、蓝色链接、胶囊按钮"
+  },
+  {
+    "directory": "spacex",
+    "name": "spacex-design",
+    "brand": "SpaceX",
+    "scope": "航天项目与任务展示页",
+    "style": "纯黑底、全幅航天影像、大写窄标题、描边按钮"
+  },
+  {
+    "directory": "spotify",
+    "name": "spotify-design",
+    "brand": "Spotify",
+    "scope": "音乐播放与媒体浏览界面",
+    "style": "炭黑层次、封面主导色彩、绿色操作、紧凑功能排版"
+  },
+  {
+    "directory": "starbucks",
+    "name": "starbucks-design",
+    "brand": "Starbucks",
+    "scope": "咖啡零售与会员页面",
+    "style": "暖奶油底、四级绿色、亲和无衬线、会员金色点缀"
+  },
+  {
+    "directory": "stripe",
+    "name": "stripe-design",
+    "brand": "Stripe",
+    "scope": "支付基础设施介绍页",
+    "style": "深蓝文字、靛蓝操作、渐变网格背景、轻字重标题"
+  },
+  {
+    "directory": "supabase",
+    "name": "supabase-design",
+    "brand": "Supabase",
+    "scope": "数据库平台与技术介绍页",
+    "style": "黑白双模式、翠绿操作、密集产品截图、技术型排版"
+  },
+  {
+    "directory": "superhuman",
+    "name": "superhuman-design",
+    "brand": "Superhuman",
+    "scope": "效率与邮件产品介绍页",
+    "style": "深靛蓝人物展示区、紫色氛围背景、安静白色正文区"
+  },
+  {
+    "directory": "tesla",
+    "name": "tesla-design",
+    "brand": "Tesla",
+    "scope": "汽车与能源产品展示页",
+    "style": "全屏产品摄影、极少界面装饰、蓝色主操作"
+  },
+  {
+    "directory": "theverge",
+    "name": "theverge-design",
+    "brand": "The Verge",
+    "scope": "科技媒体与新闻信息流",
+    "style": "近黑底、超重标题、酸薄荷与紫色、多彩时间线卡片"
+  },
+  {
+    "directory": "together.ai",
+    "name": "together-ai-design",
+    "brand": "Together AI",
+    "scope": "AI 基础设施与研究介绍页",
+    "style": "近黑展示区、橙粉紫渐变、白色研究与文档区"
+  },
+  {
+    "directory": "uber",
+    "name": "uber-design",
+    "brand": "Uber",
+    "scope": "出行服务与产品介绍页",
+    "style": "黑白双色、几何标题、胶囊操作、编辑式摄影"
+  },
+  {
+    "directory": "vercel",
+    "name": "vercel-design",
+    "brand": "Vercel",
+    "scope": "开发平台与技术介绍页",
+    "style": "近白底、黑色文字、多色网格渐变、几何字体"
+  },
+  {
+    "directory": "vodafone",
+    "name": "vodafone-design",
+    "brand": "Vodafone",
+    "scope": "通信品牌与服务介绍页",
+    "style": "摄影分区、巨大大写标题、猩红操作、白色内容区"
+  },
+  {
+    "directory": "voltagent",
+    "name": "voltagent-design",
+    "brand": "VoltAgent",
+    "scope": "AI Agent 开发工具介绍页",
+    "style": "近黑底、电光绿重点、代码编辑器展示、深色功能网格"
+  },
+  {
+    "directory": "warp",
+    "name": "warp-design",
+    "brand": "Warp",
+    "scope": "终端与开发环境介绍页",
+    "style": "暖炭黑底、清晰无衬线、衬线斜体点缀、终端模型"
+  },
+  {
+    "directory": "webflow",
+    "name": "webflow-design",
+    "brand": "Webflow",
+    "scope": "视觉建站平台介绍页",
+    "style": "深黑与白色对比、五色产品分类重点、作品展示"
+  },
+  {
+    "directory": "wired",
+    "name": "wired-design",
+    "brand": "WIRED",
+    "scope": "科技杂志与长文阅读页",
+    "style": "白底黑字、窄高衬线标题、衬线正文、密集编辑网格"
+  },
+  {
+    "directory": "wise",
+    "name": "wise-design",
+    "brand": "Wise",
+    "scope": "国际汇款与金融服务页",
+    "style": "极粗黑色大标题、青柠绿、鼠尾草浅底、圆角白卡"
+  },
+  {
+    "directory": "x.ai",
+    "name": "xai-design",
+    "brand": "xAI",
+    "scope": "AI 品牌与模型介绍页",
+    "style": "近黑底、白色描边胶囊、日落渐变点缀、等宽标签"
+  },
+  {
+    "directory": "zapier",
+    "name": "zapier-design",
+    "brand": "Zapier",
+    "scope": "工作流自动化产品介绍页",
+    "style": "暖奶油底、深咖啡文字、橙色操作、亲和标题"
+  }
+]

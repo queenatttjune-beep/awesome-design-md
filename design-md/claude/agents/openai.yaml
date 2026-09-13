@@ -1,0 +1,4 @@
+interface:
+  display_name: "claude-design"
+  short_description: "参考 Claude 风格设计AI 产品介绍与编辑式页面，应用配色、排版与组件规则。"
+  default_prompt: "请使用 $claude-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"
