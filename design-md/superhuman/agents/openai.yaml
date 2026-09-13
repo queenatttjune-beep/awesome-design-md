@@ -1,4 +1,4 @@
 interface:
-  display_name: "superhuman-design"
+  display_name: "Superhuman 设计"
   short_description: "参考 Superhuman 风格设计效率与邮件产品介绍页，应用配色、排版与组件规则。"
   default_prompt: "请使用 $superhuman-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

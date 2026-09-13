@@ -1,4 +1,4 @@
 interface:
-  display_name: "hashicorp-design"
+  display_name: "HashiCorp 设计"
   short_description: "参考 HashiCorp 风格设计基础设施产品介绍页，应用配色、排版与组件规则。"
   default_prompt: "请使用 $hashicorp-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "replicate-design"
+  display_name: "Replicate 设计"
   short_description: "参考 Replicate 风格设计模型平台与开发者介绍页，应用配色、排版与组件规则。"
   default_prompt: "请使用 $replicate-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

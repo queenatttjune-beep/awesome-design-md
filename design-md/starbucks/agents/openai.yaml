@@ -1,4 +1,4 @@
 interface:
-  display_name: "starbucks-design"
+  display_name: "星巴克设计"
   short_description: "参考 Starbucks 风格设计咖啡零售与会员页面，应用配色、排版与组件规则。"
   default_prompt: "请使用 $starbucks-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

@@ -1,4 +1,4 @@
 interface:
-  display_name: "theverge-design"
+  display_name: "The Verge 设计"
   short_description: "参考 The Verge 风格设计科技媒体与新闻信息流，应用配色、排版与组件规则。"
   default_prompt: "请使用 $theverge-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

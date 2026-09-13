@@ -1,4 +1,4 @@
 interface:
-  display_name: "binance-design"
+  display_name: "币安设计"
   short_description: "参考 Binance 风格设计金融平台介绍与交易界面，应用配色、排版与组件规则。"
   default_prompt: "请使用 $binance-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

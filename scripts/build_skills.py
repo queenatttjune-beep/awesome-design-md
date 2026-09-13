@@ -69,7 +69,7 @@ metadata:
         prompt = f"请使用 ${name}，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"
         result[folder / 'agents' / 'openai.yaml'] = (
             'interface:\n'
-            f'  display_name: {quoted(name)}\n'
+            f'  display_name: {quoted(entry["display_name"])}\n'
             f'  short_description: {quoted(short)}\n'
             f'  default_prompt: {quoted(prompt)}\n'
         )
@@ -78,18 +78,18 @@ metadata:
         '# 独立设计技能目录', '',
         f'共 {len(entries)} 个技能。每个技能读取同目录的 `DESIGN.md`，保留上游目录和原文。', '',
         '在支持技能的 Agent 中选择对应技能，或使用表中的调用名。品牌风格需要明确指定；安装某品牌的软件或使用其 API 不触发设计技能。', '',
-        '| 品牌 / 版本 | 调用名 | 参考场景 | 视觉特征 |',
-        '| --- | --- | --- | --- |',
+        '| 品牌 / 版本 | 显示名称 | 调用名 | 参考场景 | 视觉特征 |',
+        '| --- | --- | --- | --- | --- |',
     ]
     for entry in entries:
         catalog.append(
             f"| [{entry['brand']}](design-md/{entry['directory']}/SKILL.md) "
-            f"| `${entry['name']}` | {entry['scope']} | {entry['style']} |"
+            f"| {entry['display_name']} | `${entry['name']}` | {entry['scope']} | {entry['style']} |"
         )
     catalog += [
         '', '## 维护', '',
-        '`skills.json` 保存每个品牌的技能名、适用场景和简短风格介绍。`scripts/build_skills.py` 只生成技能入口、Codex 界面配置和本目录，不修改 `DESIGN.md`、原始 README 或许可证。', '',
-        '修改入口规则时编辑生成脚本；修改品牌简介时编辑 `skills.json`，然后运行：', '',
+        '`skills.json` 保存每个品牌的技能名、显示名称、适用场景和简短风格介绍。`display_name` 用于 Skill Panel 和 Codex 的界面展示，`name` 保留原有调用标识。`scripts/build_skills.py` 只生成技能入口、Codex 界面配置和本目录，不修改 `DESIGN.md`、原始 README 或许可证。', '',
+        '修改入口规则时编辑生成脚本；修改显示名称或品牌简介时编辑 `skills.json`，然后运行：', '',
         '```sh', 'python3 scripts/build_skills.py', 'python3 scripts/build_skills.py --check', '```', '',
         '同步上游设计文档后，复核对应简介；新增或删除品牌时同步调整 `skills.json`。检查命令会拒绝漏掉的品牌、失效目录、重复技能名及尚未重新生成的文件。', '',
         '每个目录的 `SKILL.md` 和 `agents/openai.yaml` 是生成文件；若要自行调整，先修改生成脚本或元数据，再重新生成。原文可独立更新，不需要改写成技能说明。', '',
@@ -112,7 +112,7 @@ def load_entries():
         if not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,63}', entry['name']):
             raise ValueError(f"Invalid skill name: {entry['name']}")
         if not all(isinstance(entry.get(key), str) and entry[key].strip()
-                   for key in ('directory', 'name', 'brand', 'scope', 'style')):
+                   for key in ('directory', 'name', 'display_name', 'brand', 'scope', 'style')):
             raise ValueError(f'Incomplete entry: {entry}')
     return sorted(entries, key=lambda e: e['directory'])
 

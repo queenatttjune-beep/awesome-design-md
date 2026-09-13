@@ -1,4 +1,4 @@
 interface:
-  display_name: "miro-design"
+  display_name: "Miro 设计"
   short_description: "参考 Miro 风格设计视觉协作产品介绍页，应用配色、排版与组件规则。"
   default_prompt: "请使用 $miro-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

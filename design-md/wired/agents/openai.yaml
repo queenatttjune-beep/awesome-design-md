@@ -1,4 +1,4 @@
 interface:
-  display_name: "wired-design"
+  display_name: "WIRED 设计"
   short_description: "参考 WIRED 风格设计科技杂志与长文阅读页，应用配色、排版与组件规则。"
   default_prompt: "请使用 $wired-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

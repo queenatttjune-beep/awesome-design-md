@@ -1,4 +1,4 @@
 interface:
-  display_name: "linear-design"
+  display_name: "Linear 设计"
   short_description: "参考 Linear 风格设计项目管理产品的官网营销页，应用配色、排版与组件规则。"
   default_prompt: "请使用 $linear-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"

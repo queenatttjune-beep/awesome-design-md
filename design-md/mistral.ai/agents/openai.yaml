@@ -1,4 +1,4 @@
 interface:
-  display_name: "mistral-ai-design"
+  display_name: "Mistral AI 设计"
   short_description: "参考 Mistral AI 风格设计AI 模型与品牌介绍页，应用配色、排版与组件规则。"
   default_prompt: "请使用 $mistral-ai-design，先读取设计参考，再结合当前项目与页面用途完成我要求的设计工作。"
